@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.header {
+    border: 2px;
+    width: 100vw;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 70px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+
+ul {
+    list-style: inside "";
+    display: flex;
+    column-gap: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    height: 40px;
+    align-items: center;
+}
+
+li {
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+}
+
+.header div {
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: rgb(232, 224, 224);
+    height: 30px;
+    padding-top: 5px;
+}
+
+div span {
+    padding-left: 60px;
+    color: gray;
+}
+
+.header .date {
+    padding-left: 720px;
+    padding-right: 20px;
+}
+
+img {
+    left: 30px;
+    right: px;
+}
+ul span{
+    cursor:pointer;
+    transform: translate(440px);
+}
+
+.news {
+    animation: blinker 2s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.body {
+    border: 2px solid;
+    padding: 20px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+}
+
+.photo1 {
+    border: 2px solid;
+    width: 33%;
+    height: 70vh;
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/27/12/45/woman-2178480_1280.jpg");
+    background-size: cover;
+    background-repeat: none;
+    border-radius: 10px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.photo2 {
+    border: 2px solid;
+    width: 25%;
+    height: 70vh;
+    background-image: url("https://cdn.pixabay.com/photo/2014/01/18/10/14/vaulted-cellar-247391_1280.jpg");
+    background-size: contain;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo3 {
+    border: 2px solid;
+    width: 200px;
+    height: 35vh;
+    background-image: url("https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_1280.jpg");
+    background-size: cover;
+    background-position: right;
+    border-radius: 10px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.photo4 {
+    border: 2px solid;
+    height: 35vh;
+    width: 200px;
+    background-position: ce;
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/18/22/18/university-5188610_1280.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.photo1 p ,.photo2 p{
+    transform: translate(10px,350px);
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.photo3 p{
+    transform: translate(10px,140px);
+    padding-right: 5px;
+    font-weight: 500 !important;
+}
+.photo4 p{
+    transform: translate(10px,120px);
+    padding-right: 5px;
+    font-weight: 500;
+}
+
+.body span{
+    color: white;
+    background-color: black;
+    padding: 3px 6px;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+.side {
+    border: 2px;
+    width: 20%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: black;
+}
+.button {
+    display: flex;
+}
+
+button {
+    width: 50%;
+    height: 40px;
+    color: rgb(252, 252, 252);
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.short {
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    line-height: 17px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.short img {
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+
+.short p {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
